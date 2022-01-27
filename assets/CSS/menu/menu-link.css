@@ -1,8 +1,19 @@
 .menu__link {
-    color:#000000;
+    background: #8d0606;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
     display: flex;
     font-weight:bold;
-    font-size: 20px;
-    padding-left: 0 1rem;
+    font-size: 18px;
+    padding: 1rem;
+    text-align: left;
     text-decoration: none;
+    transition: all .2s ease-in-out;
+}
+
+.menu__link:hover {
+    background: #620404;
+    cursor: pointer;
+
 }
