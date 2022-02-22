@@ -2,4 +2,6 @@
     color:#000000;
     padding-left: 1rem;
     padding-right: 1rem;
+    display: inline-block;
+    text-align: center;
 }
